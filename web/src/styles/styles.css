@@ -1,0 +1,70 @@
+.bg-red {
+  background-color: red;
+}
+
+.fg-red {
+  color: red;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.fg-white {
+  color: #fff;
+}
+
+.error {
+  margin: 0 5px;
+}
+
+body.hired-app {
+  background-color: #EDF1F5;
+}
+
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: right;
+  padding: 15px 0;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+nav a.active {
+  border-top: 2px solid red;
+  padding: 5px;
+}
+
+#sign-up-page {
+  margin: 40px 0;
+}
+
+#sign-up-page #sign-up-form {
+  padding: 15px 0;
+}
+
+#sign-up-page .info h5 {
+  margin: 15px 0;
+}
+
+#sign-up-page .info h4 {
+  margin: 25px 0;
+}
+
+#user-registration-steps {
+  background-color: #fff;
+}
