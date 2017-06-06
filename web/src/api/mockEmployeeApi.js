@@ -45,7 +45,6 @@ class EmployeeApi {
 
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        debugger;
         experty = experty.replace(/\s/g, '');
         experty = experty.replace(/^[\d]/g, '');
         experty = experty.toLowerCase();

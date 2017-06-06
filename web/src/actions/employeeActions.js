@@ -31,7 +31,6 @@ export function updateRolesSuccess(roles){
 export function fetchRoles(experty){
   return function(dispatch) {
     return employeeApi.fetchRoles(experty).then(roles => {
-      debugger;
       dispatch(updateRolesSuccess(roles));
     }, (error) => {
       throw(error);

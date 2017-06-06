@@ -27,7 +27,6 @@ class EmployeePage extends React.Component {
   }
 
   changeAttribute(event){
-    debugger;
     let attr = event.target.name;
     let employee = this.state.employee;
 
@@ -113,7 +112,11 @@ class EmployeePage extends React.Component {
   }
 
   moveForward(){
-    this.props.actions.moveForward(this.state.employee);
+    if (this.props.registrationStep === 3){
+      this.completeRegistration()
+    } else {
+      this.props.actions.moveForward(this.state.employee);
+    }
   }
 
   completeRegistration(){
@@ -142,7 +145,7 @@ class EmployeePage extends React.Component {
         <p>HeadLine: {employee.headline}</p>
         <p>Interest In: {employee.areaInterested}</p>
         <p>Experience: {employee.experience} Years</p>
-        <p>Most interested in {employee.roles.join(', ')} roles</p>
+        {employee.roles && <p>Most interested in {employee.roles.join(', ')} roles</p>}
         <p>{employee.preferences}</p>
       </div>);
     }
