@@ -14,8 +14,20 @@
   color: #fff;
 }
 
+.bg-gray {
+  background-color: #E0E6ED;
+}
+
+.required {
+  color: red;
+}
+
 .error {
   margin: 0 5px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 body.hired-app {
@@ -67,4 +79,26 @@ nav a.active {
 
 #user-registration-steps {
   background-color: #fff;
+}
+
+.radio-button-group .radio-band {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.radio-button-group .checked .radio-band {
+  background-color: #787985;
+  color: #fff;
+}
+
+.checkbox-group .checkbox-band {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.checkbox-group .checked .checkbox-band {
+  background-color: #787985;
+  color: #fff;
 }

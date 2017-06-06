@@ -4,5 +4,6 @@ export default {
   admins: [],
   user: {},
   registrationInProgress: false,
-  registrationStep: 0
+  registrationStep: 0,
+  roles: []
 };

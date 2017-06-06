@@ -7,6 +7,7 @@ export default function configureStore(initialState) {
   return createStore(
     rootReducer,
     initialState,
-    applyMiddleware(thunk, reduxImmutableStateInvariant())
+    //applyMiddleware(thunk, reduxImmutableStateInvariant()) // TO DO: Turn it on
+    applyMiddleware(thunk)
   );
 }
