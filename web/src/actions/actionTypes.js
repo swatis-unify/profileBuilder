@@ -9,3 +9,7 @@ export const REGISTER_EMPLOYEE_COMPLETE = 'REGISTER_EMPLOYEE_COMPLETE';
 export const UPDATE_EMPLOYEE_SUCCESS = 'UPDATE_EMPLOYEE_SUCCESS';
 
 export const EMPLOYEE_ROLES_SUCCESS = 'EMPLOYEE_ROLES_SUCCESS';
+
+export const testSetup = {
+    test: true
+}
